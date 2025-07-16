@@ -3,9 +3,6 @@
 
 #include "casilla.h"
 
-// Forward declaration
-class Jugador;
-
 class CasillaEspecial : public Casilla {
 protected:
     std::string tipoEspecial;

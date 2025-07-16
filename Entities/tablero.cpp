@@ -1,5 +1,6 @@
 #include "tablero.h"
 #include <iostream>
+// casilla.h ya viene incluido desde tablero.h
 
 Tablero::Tablero() {
     this->casillas = nullptr;

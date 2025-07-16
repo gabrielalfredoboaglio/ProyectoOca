@@ -1,8 +1,6 @@
 #include "juego.h"
-#include "tablero.h"
-#include "dado.h"
-#include "jugador.h"
 #include <iostream>
+
 
 Juego::Juego() {
     this->tablero = new Tablero();

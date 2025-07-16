@@ -1,7 +1,7 @@
 #include "jugador.h"
-#include "ficha.h"
-#include "dado.h"
+#include "../Core/dado.h"  // ← Solo include lo que no viene del .h
 #include <iostream>
+// ficha.h ya viene incluido desde jugador.h
 
 Jugador::Jugador() {
     this->nombre = "";

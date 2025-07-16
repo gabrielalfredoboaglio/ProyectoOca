@@ -2,14 +2,12 @@
 #define JUGADOR_H
 
 #include <string>
-
-// Forward declarations
-class Ficha;
-class Dado;
+#include "ficha.h"         // ← Include directo
+#include "../Core/dado.h"  // ← Include directo (NO forward declaration)
 
 class Jugador {
 private:
-    std::string nombre; // Usamos string en lugar de char*
+    std::string nombre;
     Ficha* ficha;
     bool puedeJugar;
 

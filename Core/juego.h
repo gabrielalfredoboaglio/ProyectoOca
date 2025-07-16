@@ -1,10 +1,9 @@
 #ifndef JUEGO_H
 #define JUEGO_H
 
-// Forward declarations
-class Tablero;
-class Dado;
-class Jugador;
+#include "../Entities/tablero.h"  // ← Include directo
+#include "dado.h"                 // ← Include directo
+#include "../Entities/jugador.h"  // ← Include directo
 
 class Juego {
 private:

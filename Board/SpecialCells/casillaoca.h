@@ -1,7 +1,7 @@
 #ifndef CASILLAOCA_H
 #define CASILLAOCA_H
 
-#include "../casillaespecial.h"
+#include "../casillaespecial.h"  // ← Include directo (estilo facultad)
 
 class CasillaOca : public CasillaEspecial {
 public:

@@ -1,8 +1,7 @@
 #ifndef TABLERO_H
 #define TABLERO_H
 
-// Forward declaration
-class Casilla;
+#include "../Board/casilla.h"  // ← Include directo (estilo facultad)
 
 class Tablero {
 private:

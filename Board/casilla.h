@@ -2,12 +2,10 @@
 #define CASILLA_H
 
 #include <string>
-
-// Forward declaration
-class Jugador;
+#include "../Entities/jugador.h"
 
 class Casilla {
-protected:  // Cambiado a protected para que las clases hijas puedan acceder
+protected:  // Protected para que las clases hijas puedan acceder
     int posicion;
     std::string tipo;
 
