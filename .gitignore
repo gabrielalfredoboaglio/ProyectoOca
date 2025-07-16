@@ -1,4 +1,5 @@
- *.pro.user
+# Qt Creator files
+*.pro.user
 *.pro.user.*
 *.qbs.user
 *.qbs.user.*
@@ -16,6 +17,89 @@
 *.tmp
 *.tmp_proj
 *.log
+*.tlog
+*.suo
+*.ncb
+*.sdf
+*.opensdf
+*.vcxproj*
+*.filters
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+*.autosave
+
+# Build directories - MUY IMPORTANTE
 build-*
 debug/
 release/
+Debug/
+Release/
+
+# Qt Cache files
+*.qm
+.qmake.cache
+.qmake.stash
+
+# Qt Creator backup files
+*.orig
+
+# Directories to ignore
+build*/
+*/build/*
+**/build/**
+
+# Qt Creator specific
+.qtc_clangd/
+*.qtc_clangd
+
+# Executables
+*.exe
+*.app
+
+# Object files
+*.o
+*.a
+*.so
+*.dll
+
+# Temporary files
+*~
+*.swp
+*.bak
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Visual Studio (if using)
+.vs/
+*.vcxproj.user
+
+# MinGW specific
+*.d
