@@ -14,7 +14,7 @@ HEADERS += \
     Core/dado.h \
     Core/juego.h
 
-# Entities - Entidades del dominio
+# Entities - PRUEBA DE CAMBIO
 SOURCES += \
     Entities/jugador.cpp \
     Entities/ficha.cpp \
